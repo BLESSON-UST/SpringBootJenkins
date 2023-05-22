@@ -15,4 +15,9 @@ public class Contrlr {
     public String welcomeAadil(){
         return "welcome Blesson J A";
     }
+
+    @GetMapping("/myname")
+    public String welcomebless(){
+        return "welcome Bless J A";
+    }
 }
